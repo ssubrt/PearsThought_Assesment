@@ -13,7 +13,7 @@ import {
   CardTitle,
 } from "../../components/ui/card"
 
-  
+
 
 /**
  * Page component that renders a login form and a button to login with Google.
@@ -24,7 +24,7 @@ import {
  */
 const Page = async () => {
   const session = await auth()
-  if(session?.user) return redirect('/')
+  if(session?.user) return redirect('/dashboard')
   return (
 <>
   <div className="flex justify-center items-center h-screen bg-gray-100">

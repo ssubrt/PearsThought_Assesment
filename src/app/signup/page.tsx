@@ -11,7 +11,7 @@ import { Input } from "@/components/ui/input";
 import Link from "next/link";
 import { Button } from "../../components/ui/button";
 import connectDB from "@/dbConfig";
-import bcrypt from "bcrypt";
+import bcrypt from "bcryptjs";
 import { redirect } from "next/navigation";
 import { CredentialsSignin } from "next-auth";
 import { signIn } from "@/auth";

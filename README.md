@@ -38,6 +38,13 @@ This project is a Next.js application that provides user authentication with Goo
 - MongoDB instance (local or cloud) for user data storage
 - Google OAuth credentials (Client ID and Client Secret)
 
+### How to get Google OAuth Client ID and Secret
+- Creating a Google Cloud project
+- Configuring OAuth consent screen
+- Creating OAuth 2.0 credentials (Client ID and Secret)
+- Adding authorized redirect URIs (e.g., http://localhost:3000/api/auth/callback/google)
+- Copying the client ID and secret to .env.local file as AUTH_GOOGLE_ID and AUTH_GOOGLE_SECRET
+
 ### Installation
 
 1. Clone the repository:
